@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X, UploadCloud, FileImage, FileVideo, AlertCircle } from 'lucide-react';
-import { MediaItem } from '../App'; // Need to export MediaItem from App.tsx
+import { MediaItem } from '../AdminApp';
 
 interface UploadProps {
   isOpen: boolean;

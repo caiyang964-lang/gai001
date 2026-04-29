@@ -27,13 +27,13 @@ body {
 }
 
 @media (pointer: fine) {
-  .frontend-scope, 
-  .frontend-scope *, 
-  .frontend-scope a, 
-  .frontend-scope button, 
-  .frontend-scope input, 
-  .frontend-scope textarea, 
-  .frontend-scope [role="button"] {
+  body, 
+  body *, 
+  a, 
+  button, 
+  input, 
+  textarea, 
+  [role="button"] {
     cursor: none !important;
   }
 }
